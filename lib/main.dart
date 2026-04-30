@@ -15,7 +15,7 @@ void main() async {
     await Boxes.initialize();
     runApp(const MyApp());
   } catch (e) {
-    debugPrint('Error initializing app: $e');
+    debugPrint('Error initializing apps: $e');
     runApp(const ErrorApp());
   }
 }
