@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hive_database/services/box.dart';
-import 'package:hive_database/widgets/note_delete_confirmation.dart';
-import 'package:hive_database/widgets/note_details_dialog.dart';
+
 import 'package:hive_flutter/adapters.dart';
+import 'package:note_app/services/box.dart';
+import 'package:note_app/widgets/note_delete_confirmation.dart';
+import 'package:note_app/widgets/note_details_dialog.dart';
 import '../models/note_model.dart';
 import '../utils/constants.dart';
 import '../widgets/note_dialog.dart';

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hive_database/services/box.dart';
+//import 'package:hive_database/services/box.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:note_app/services/box.dart';
 import 'models/note_model.dart';
 
 import 'screens/home_screen.dart';
