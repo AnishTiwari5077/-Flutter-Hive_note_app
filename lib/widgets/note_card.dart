@@ -20,7 +20,7 @@ class NoteCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: AppConstants.cardElevation,
-      margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 8),
+      margin: const EdgeInsets.symmetric(vertical: 4, horizontal: 8),
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(AppConstants.borderRadius),
